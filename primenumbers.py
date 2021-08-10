@@ -18,7 +18,6 @@ if num > 1:
     else:
         print(str(num) + " is a composite number.")
         print("Proof: ")
-        print("Since " + str(num) + " has " + str(len(factors)) + " factors " + str(factors) + ", it is a composite number.")
+        print("Since " + str(num) + " has " + str(len(factors)) + " factor " + str(factors) + ", it is a composite number.")
 else:
     print(str(num) + " is neither prime nor composite.")
-
